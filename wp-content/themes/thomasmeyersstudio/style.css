@@ -1,0 +1,89 @@
+body {
+
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+.clear {
+	clear: both;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/* what color do you want the site? */
+
+header, .cat-section, footer, .media-selection {
+	z-index: 9999999 !important;
+}
+
+
+/* navigation */
+
+nav ul li {
+	display: inline;
+}
+
+/* slider */
+
+.slide img {
+	max-height: 800px;
+	width: 100%;
+}
+
+.slide {
+	z-index: -1; 
+}
+
+/* product image detail
+
+.product-detail-section img {
+    max-height: 600px;
+}
+
+*/
+
+/* border product detail nav 
+
+li.previous,
+li.grid-block,
+li.next {
+    padding: 19px 19px 19px 20px !important;
+}
+
+.previous a, .next a {
+font-size: 34px !important;
+}
+
+.product-menu ul {
+    margin-top: 13px !important;
+}
+
+li.product-title {
+    border: 1px solid #f1dfd2 !important;
+    padding: 18px 19px 18px 20px !important;
+    padding-right: 50% !important;
+}
+
+*/
