@@ -1,0 +1,6 @@
+tms_ecom_db
+tms_ecom_user
+zhGxmLNyhFsm8F5q
+
+un: admin
+pw: nimda
