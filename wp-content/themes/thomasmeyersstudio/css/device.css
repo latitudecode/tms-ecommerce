@@ -1,0 +1,233 @@
+/*!
+ * Responsive ISH 
+ *
+ * Things from me @sambakessalmon
+ */
+
+/* ===================== tablet 1439 to 768px =============================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+/* header */
+.primary-nav {  display: none; }
+.logo-text { display: none !important; }
+header { height: 60px !important;}
+.logo img { left: 43%;}
+.mail i { top: 20px !important; right: 15px !important; }
+.flyout i { top: 20px !important; left: 15px !important; }
+.logo img {  top: 10px !important; width: 40px; }
+/* footer */
+.signup-man { padding: 45px 0px 0px 25px !important;}
+/* slider */
+.cbp-fwdots { right: 35% !important; bottom: 10px !important;}
+.cbp-fwdots span {height: 16px !important; width: 16px !important;}
+/* homepage */
+.media-entry-collage.fr, .media-entry-mosaic.fl { width: 100% !important; }
+li.title { padding: 0px !important; }
+figure.effect-hover.cat {margin: 40px 0px !important;}
+/* work */
+.product-section p {padding: 0px !important;}
+.main-content {top: 0px !important;}
+section.main-content.product-details { top: 20px !important; }
+.main-content h2 {margin:0px !important;}
+/* list */
+.category-intro-mosaic, .category-intro-collage {top: -15px !important;}
+.sub-nav {display: none !important;}
+.intro {width: 80% !important; margin-left: 25px;}
+.category-intro-mosaic {height:700px !important;}
+.category-intro-collage {height: 795px !important}
+.category-list .row .col-md-3 {padding-top: 20px !important;}
+.main-columns {top: -15px !important;}
+.col-md-3 img { margin-bottom: 25px; }
+/* detial */
+.product-detail-section {text-align: center; padding-bottom: 75px;margin-top: 0px;margin-bottom: 0px;padding-top: 0px;}
+.product-detail-section img.attachment-post-thumbnail.wp-post-image { width: 85%; }
+li.product-title {
+  border: none !important; 
+  padding: none !important; 
+  padding-right: 0px !important; 
+  position: absolute;
+  bottom: 55px;
+  width: 150px;
+  right: 25%;
+  color: #878787;
+}
+li.previous { left: 0px !important; padding: 19px 20px 15px 20px !important;}
+.grid-block, li.next {padding: 19px 20px 15px 20px !important;}
+.main-content.product-detail {  background-color: #474747; padding-top: 40px;}
+.product-menu ul { margin-top: 13px; }
+/* info */
+.info .right-col {display: none;}
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* header */
+.logo img {left: 46%;}
+/* footer */
+.rightz {padding: 34px 50px 0px 0px !important;}
+footer {height: 150px !important;}
+/* slider */
+/* homepage */
+/* work */
+/* list */
+.category-intro-mosaic {height:450px !important;}
+/* detial */
+li.product-title {right: 38%;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+/* detial */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+/* header */
+.primary-nav {  display: none; }
+.logo-text { display: none !important; }
+header {height:100px !important;}
+.flyout i {top: 42px !important;; left: 30px !important;}
+.logo img {top: 25px !important; width: 50px;}
+.mail i {top: 40px !important; right: 30px !important;}
+.exit-off-canvas i {top: 20px !important; right: 30px !important;}
+a.exit-off-canvas {height: 100px !important;}
+.exit-off-canvas i {top: 40px !important; left: 45% !important;}
+.menu-main-menu-container {position:relative; top:40px;}
+li.contact-menu { padding-top: 35px; }
+/* footer */
+/* slider */
+/* homepage */
+li.title {padding: 0px !important;}
+/* work */
+/* list */
+.intro {width: 70%;}
+.sub-nav {top: 100px;position: relative;}
+nav.sub-nav.filter {top: 0px;}
+.category-intro-collage, .category-intro-mosaic {height: 400px !important;}
+.sub-nav {top: 0px;}
+/* detial */
+.product-detail img.attachment-post-thumbnail.wp-post-image {width: 50% !important;}
+li.grid-block, li.previous, li.next {padding: 19px 20px 15px 20px !important;}
+.main-content.product-detail {  background-color: #474747; padding-top: 40px;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+/* header */
+.primary-nav {  display: none !important; }
+.logo-text { display: none !important; }
+.logo img { left: 5% !important;}
+/* footer */
+footer {margin-top: 60px !important;}
+/* slider */
+/* homepage */
+/* work */
+.product-section .col-md-4 { width: 29% !important;}
+/* list */
+nav.sub-nav.filter {top: 0px;}
+/* detial */
+.main-content.product-detail {top:70px !important;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+.product-section {width: 55%!important;}
+/* list */
+.main-columns.category-list img {margin-bottom: 50px !important;}
+nav.sub-nav.filter {top: 0px;}
+/* detial */
+.product-menu {top: 10px !important;}
+.main-content.product-detail {top: 70px !important;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+/* header */
+.flyout i, .mail i {display: none;}
+.logo img { left: 45px;}
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+nav.sub-nav.filter {top: 0px;}
+/* detial */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (max-width : 1024px) {
+/* header */
+.primary-nav {  display: none; }
+.logo-text { display: none !important; }
+.flyout i, .mail i {display: inline;}
+.logo img {left: 43% !important;}
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+.sub-nav {position: relative; top: 100px}
+/* list */
+/* detial */
+.product-detail-section .attachment-post-thumbnail.wp-post-image { width: 260px !important}
+section.main-content.product-detail { background-color: #474747 !important;}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+/* detial */
+.product-detail-section img { width: 430px !important;}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+/* detial */
+}
+

@@ -1,0 +1,20 @@
+@-moz-document url-prefix() { 
+	.col-md-3 a img {
+		max-width: 260px !important;
+	}
+
+	.col-md-6 a img {
+	    max-width: 450px !important;
+	}
+
+	.row-effect figure img {
+		width: 100% !important;
+	}
+
+	li.previous {padding: 19px 20px 15px !important;}
+
+	li.grid-block {padding: 19px 21px 15px !important; right: 1px !important;}
+
+	li.next {right: 6px; padding: 19px 20px 15px;}
+
+}
